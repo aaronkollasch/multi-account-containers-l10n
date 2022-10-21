@@ -132,6 +132,15 @@
   "sitesAssignedToThisContainer": {
     "message": "Sites assigned to this Container"
   },
+  "sitesAllowedForThisContainer": {
+    "message": "Sites allowed for this Container"
+  },
+  "addAllowedSite": {
+    "message": "Add allowed site"
+  },
+  "add": {
+    "message": "Add"
+  },
   "options": {
     "message": "Options"
   },
