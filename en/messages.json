@@ -385,6 +385,16 @@
       }
     }
   },
+  "containersRemoved": {
+    "message": "$removedCount$ containers removed.",
+    "description": "(Options menu) When importing containers from a file succeed",
+    "placeholders": {
+      "removedCount": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
   "containersRestorationFailed": {
     "message": "The file is corrupted, or isn't a container backup file.",
     "description": "(Options menu) When importing containers from a file failed (most likely due to a malformed file)"
@@ -398,8 +408,8 @@
     "description": "(Options menu) Restore containers from a file group header"
   },
   "warningConfigOverride": {
-    "message": "WARNING ! This operation will erase current configuration with the imported one. All cookies associated with existing containers will be discarded.",
-    "description": "(Options menu) Warns the user that old containers will be deleted along with their associated cookies"
+    "message": "WARNING! This operation will remove any containers that are not in the backup file, discarding any associated cookies.",
+    "description": "(Options menu) Warns the user that containers not in the restore file will be deleted along with their associated cookies"
   },
   "saveLegend": {
     "message": "Save",
